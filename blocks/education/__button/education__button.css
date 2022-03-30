@@ -1,0 +1,15 @@
+.education__button {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #000;
+  width: 279px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none; 
+  color: #fff;
+  border: 1px solid #E0F0FF;
+  background: transparent;
+  z-index: 1;
+}
