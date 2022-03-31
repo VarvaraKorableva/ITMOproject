@@ -6,10 +6,24 @@
         <link rel="stylesheet" href="./pages/index.css">
         <title></title>
     </head>
-    <body>
-        <header class="header"></header>
+    <body class="page">
+        <header class="header">
+            <img class="header__logo" src="./images/Logo_AI.svg" alt="Logo AI">
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#about">О нас</a></li>
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#">Лаборатория</a></li>
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#">Проекты</a></li>
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#">Образование</a></li>
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#">Публикации</a></li>
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#">Команда</a></li>
+                    <li class="header__menu-item header__menu-item_active"><a class="header__menu-link" href="#">Связаться</a></li>
+                </ul>
+            </nav>
+        </header>
+        
         <main>
-            <section class="about"></section>
+            <section class="about" id="about"></section>
             <section class="indastrial"></section>
             <aside class="popup"></aside>
             <section class="project"></section>
