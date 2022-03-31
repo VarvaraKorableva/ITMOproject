@@ -5,6 +5,7 @@
 @import url(../blocks/education/__title/education__title.css);
 @import url(../blocks/education/__subtitle/education__subtitle.css);
 @import url(../blocks/education/__container/education__container.css);
+@import url(../blocks/education/__container/_visible/education__container_visible.css);
 @import url(../blocks/education/__group/education__group.css);
 @import url(../blocks/education/__caption/education__caption.css);
 @import url(../blocks/education/__list/education__list.css);
