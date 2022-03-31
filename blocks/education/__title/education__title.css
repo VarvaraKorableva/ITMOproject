@@ -7,13 +7,18 @@
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0; 
-  padding-top: 80px;   
 }
 
 @media (max-width: 768px) {
   .education__title {
-    padding-top: 60px;
     font-size: 24px;
     line-height: 33px;
+  }
+}
+
+@media (max-width: 480px) {
+  .education__title {
+    font-size: 16px;
+    line-height: 22px;
   }
 }

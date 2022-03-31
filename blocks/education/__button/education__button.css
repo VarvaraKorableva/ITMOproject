@@ -23,3 +23,13 @@
     line-height: 19px;
   }
 }
+
+@media (max-width: 480px) {
+  .education__button {
+    width: 148.8px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.06px;
+  }
+}

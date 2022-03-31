@@ -20,3 +20,12 @@
     grid-template-columns: 1.25fr 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .education__container {
+    margin-top: 20px;
+    padding: 16px;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

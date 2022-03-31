@@ -1,3 +1,11 @@
 .education__group {
-  grid-area: 1 / 1 / 2 / 2;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+@media (max-width: 480px) {
+  .education__group {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
 }
