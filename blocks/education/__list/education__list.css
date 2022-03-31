@@ -8,3 +8,12 @@
   padding-top: 30px;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .education__list {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 22px;
+    padding-left: 20px;
+  }
+}

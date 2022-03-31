@@ -11,3 +11,12 @@
   grid-template-rows: auto;
   box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  .education__container {
+    margin-top: 40px;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1.25fr 1fr;
+  }
+}

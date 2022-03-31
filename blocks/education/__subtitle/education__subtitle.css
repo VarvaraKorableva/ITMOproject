@@ -7,3 +7,10 @@
   margin: 0 auto;
   padding-top: 30px;
 }
+
+@media (max-width: 768px) {
+  .education__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

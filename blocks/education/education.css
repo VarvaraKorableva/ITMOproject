@@ -1,6 +1,11 @@
 .education {
-  min-height: 990px;
   max-width: 1440px;
-  padding: 0 30px;
+  padding: 0 39px 80px;
   background: #009FAC;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 0 39px 60px;
+  }
 }

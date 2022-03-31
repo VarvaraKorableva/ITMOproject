@@ -4,3 +4,10 @@
   padding-top: 35px;
   grid-area: 1 / 1 / 2 / 2;
 }
+
+@media (max-width: 768px) {
+  .education__button-group {
+    grid-template-columns: minmax(100px, 220px) 1fr;
+    padding-top: 30px;
+  }
+}

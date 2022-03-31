@@ -12,4 +12,14 @@
   border: 1px solid #E0F0FF;
   background: transparent;
   z-index: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .education__button {
+    width: 232.5px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
