@@ -1,3 +1,9 @@
+@keyframes sheen {
+  100% {
+    transform: translate(5px, 0px);
+  }
+}
+
 .education__link {
   display: flex;
   align-items: center;
@@ -9,6 +15,29 @@
   grid-row: 2/3;
   grid-column: 1/2;
   padding-top: 10px;
+  transition: opacity 0.4s ease;
+}
+
+.education__link::after {
+  content: url('../../../images/education/arrow-right.png');
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  padding-left: 3px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.education__link:hover::after {
+  animation: sheen .4s forwards;
+}
+
+.education__link:hover, .education__link:active {
+  font-weight: 700;
+  text-decoration-line: underline;
+  opacity: .7;
 }
 
 @media (max-width: 768px) {

@@ -13,6 +13,12 @@
   background: transparent;
   z-index: 1;
   cursor: pointer;
+
+}
+
+.education__button:hover {
+  color: #000D26;
+  border: 1px solid #000D26;
 }
 
 @media (max-width: 768px) {
