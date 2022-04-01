@@ -24,3 +24,12 @@
 @import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
 @import url(../blocks/feedback/__form-container/feedback__form-container.css);
 @import url(../blocks/feedback/__field/feedback__field.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column_content/footer__column_content_info.css);
+@import url(../blocks/footer/__column_content/footer__column_content_address-info.css);
+@import url(../blocks/footer/__info-title/footer__info-title.css);
