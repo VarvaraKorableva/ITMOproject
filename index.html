@@ -68,7 +68,57 @@
     <section class="publications"></section>
     <section class="team"></section>
     <section class="partners"></section>
-    <aside class="form"></aside>
+    <aside class="feedback">
+      <div class="feedback__container">
+        <h2 class = "feedback__title">всегда на связи</h2>
+        <p class = "feedback__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.</p>
+        <form class ="feedback__form-container">
+           <input
+            type="text"
+            name="name"
+            placeholder="Имя"
+            class="feedback__field feedback__field_with_name"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+          <input
+            type="text"
+            name="surname"
+            placeholder="Фамилия"
+            class="feedback__field feedback__field_with_surname"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+          <input
+            type="number"
+            name="telephone"
+            placeholder="Телефон"
+            class="feedback__field feedback__field_with_telephone"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            class="feedback__field feedback__field_with_email"
+            minlength="2"
+            maxlength="30"
+            required
+          />
+          <textarea
+            type="text"
+            name="text"
+            placeholder="Сообщение"
+            class="feedback__field feedback__field_with_text"
+          ></textarea>
+          <button class ="feedback__field feedback__field_with_submit">Отправить</button>
+        </form>
+      </div>
+    </aside>
   </main>
   <footer class="footer"></footer>
   <script src="./script/index.js"></script>

@@ -15,3 +15,12 @@
 @import url(../blocks/education/__button-group/education__button-group.css);
 @import url(../blocks/education/__button/education__button.css);
 @import url(../blocks/education/__button/_active/education__button_active.css);
+
+
+/*form*/
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__conteiner/feedback__container.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
+@import url(../blocks/feedback/__form-container/feedback__form-container.css);
+@import url(../blocks/feedback/__field/feedback__field.css);
