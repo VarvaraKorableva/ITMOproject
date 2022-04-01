@@ -1,0 +1,10 @@
+.publications__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #001337;
+  margin: 0;
+}

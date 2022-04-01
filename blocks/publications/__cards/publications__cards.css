@@ -1,0 +1,7 @@
+.publications__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 33px;
+  padding: 0;
+  margin: 0;
+}
