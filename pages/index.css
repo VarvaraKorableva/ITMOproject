@@ -15,3 +15,15 @@
 @import url(../blocks/education/__button-group/education__button-group.css);
 @import url(../blocks/education/__button/education__button.css);
 @import url(../blocks/education/__button/_active/education__button_active.css);
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications/__cards/publications__cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__author/card__author.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__footer/card__footer.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__share/card__share.css);
