@@ -1,13 +1,14 @@
 .page {
-    margin: 0 auto;
-    color: #000D26;
-    background-color: #001337;
-    font-family: "OpenSans", Arial, sans-serif;
-    font-weight: 400;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #000D26;
+  font-family: "OpenSans", Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: #001337;
 }
