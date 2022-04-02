@@ -1,0 +1,6 @@
+.popup__btn-cross {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: 3.5px;
+}

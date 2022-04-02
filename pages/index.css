@@ -1,6 +1,47 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__btn-menu/header__btn-menu.css);
+@import url(../blocks/header/__container/header__container.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_type/_horizontal-line/menu_type_horizontal-line.css);
+@import url(../blocks/menu/_type/_burger/menu_type_burger.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__list-item/menu__list-item.css);
+@import url(../blocks/menu/__list-item/_type/_horizontal-active/menu__list-item_active.css);
+@import url(../blocks/menu/__list-item/_type/_burger-active/menu__list-item_type_burger-active.css);
+@import url(../blocks/menu/__menu-link/menu__link.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__bold-text/intro__bold-text.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__link/intro__link.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__notes/about__notes.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__slider/about__slider.css);
+@import url(../blocks/about/__btn-prev/about__btn-prev.css);
+@import url(../blocks/about/__btn-next/about__btn-next.css);
+@import url(../blocks/note/note.css);
+@import url(../blocks/note/__pin/note__pin.css);
+@import url(../blocks/note/__date/note__date.css);
+@import url(../blocks/note/__title/note__title.css);
+@import url(../blocks/note/__description/note__description.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__logo-container/popup__logo-container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/_type/_burger-menu/popup_type_burger-menu.css);
+@import url(../blocks/popup/__btn-cross/popup__btn-cross.css);
+
 @import url(../blocks/education/education.css);
 @import url(../blocks/education/__title/education__title.css);
 @import url(../blocks/education/__subtitle/education__subtitle.css);
