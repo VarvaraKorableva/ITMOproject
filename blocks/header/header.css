@@ -1,10 +1,4 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    min-width: 1100px;
-    min-height: 80px;
+    width: 100vw;
     background-color: #000D26;
 }

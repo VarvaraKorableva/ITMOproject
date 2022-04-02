@@ -1,0 +1,10 @@
+.menu_type_horizontal-line {
+    flex-basis: 825px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu_type_horizontal-line {
+       display: none;
+    }
+}

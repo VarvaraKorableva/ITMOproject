@@ -1,9 +1,9 @@
-.header__menu-link {
+.menu__link {
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -12,4 +12,13 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.1px;
+    font-weight: inherit;
+}
+
+@media screen and (max-width: 767px) {
+    .menu__link {
+        justify-content: flex-start;
+        line-height: 19px;
+        text-align: start;
+    }
 }
