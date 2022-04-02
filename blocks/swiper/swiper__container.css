@@ -1,0 +1,16 @@
+.swiper__container {
+  max-width: 1262px;
+  height: 478px;
+}
+
+@media screen and (max-width: 1100px) {
+  .swiper__container {
+    max-height: 438px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper__container{
+    max-height: 316px;
+  }
+}

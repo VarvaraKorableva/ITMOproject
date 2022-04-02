@@ -1,0 +1,22 @@
+.team__title {
+  text-align: center;
+  line-height: 68px;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .team__title {
+    line-height: 32.5px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .team__title {
+
+    line-height: 21.5px;
+    font-size: 16px;
+  }
+}

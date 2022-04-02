@@ -1,0 +1,22 @@
+.partners__logo {
+ list-style-type: none;
+ justify-content: space-between;
+ margin-right: 60px;
+ margin-bottom: 64px;
+ padding-right: 0;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .partners__logo {
+      margin-bottom: 30px;
+      margin-right: 30px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .partners__logo {
+      margin-bottom: 24px;
+    }
+  }
+

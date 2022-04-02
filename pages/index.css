@@ -1,0 +1,27 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/partners/__text-container/partners__text-container.css);
+@import url(../blocks/partners/__text/partners__text.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__logo-container/partners__logo-container.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__card-image/team__card-image.css);
+@import url(../blocks/team/__card/team__card.css);
+@import url(../blocks/team/__cards/team__cards.css);
+@import url(../blocks/team/__card-job/team__card-job.css);
+@import url(../blocks/team/__card-name/team__card-name.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__container/team__container.css);
+
+
+@import url(../blocks/swiper/swiper__container.css);
+@import url(../blocks/swiper/swiper-button.css);
+@import url(../blocks/swiper/swiper-wrapper__container.css);
+@import url(../blocks/swiper/swiper-slide__container.css);
+@import url(../blocks/swiper/swiper-pagination__style.css);
+
+

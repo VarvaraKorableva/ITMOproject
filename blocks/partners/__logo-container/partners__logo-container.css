@@ -1,0 +1,25 @@
+.partners__logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+}
+
+@media screen and (max-width: 1100px) {
+  .partners__logo-container {
+    max-width: 690px;
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-bottom: 60px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .partners__logo-container {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,6 @@
+.swiper-slide__container {
+  display: flex;
+  min-width: 0;
+  justify-content: center;
+  flex-wrap: nowrap;
+}

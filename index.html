@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="./pages/index.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
         <title></title>
     </head>
     <body>
@@ -15,11 +16,100 @@
             <section class="project"></section>
             <section class="education"></section>
             <section class="publications"></section>
-            <section class="team"></section>
-            <section class="partners"></section>
+
+            <section class="team">
+
+              <div class="team__container">
+                <h2 class="team__title">НАША КОМАНДА</h2>
+                <div class="swiper swiper__container">
+                <div class="swiper-wrapper">
+                  <!-- <div class="swiper-wrapper__container">
+                  Slides -->
+                  <div class="swiper-slide swiper-slide__container">
+                    <div class="team__card">
+                      <img src="images/team/man photo.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Бобцов</h2>
+                      <h2 class="team__card-name">Алексей Алексеевич</h2>
+                      <p class="team__card-job">Директор, профессор, ДТН</p>
+                    </div>
+
+                    <div class="team__card">
+                      <img src="images/team/man photo-1.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Буханоский</h2>
+                      <h2 class="team__card-name">Александр Валерьевич</h2>
+                      <p class="team__card-job">Директор, руководитель, ДТН</p>
+                    </div>
+
+                    <div class="team__card">
+                      <img src="images/team/man photo-2.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Муромцев</h2>
+                      <h2 class="team__card-name">Дмитрий Ильич</h2>
+                      <p class="team__card-job">Руководитель, доцент, КТН</p>
+                    </div>
+
+                    <div class="team__card">
+                      <img src="images/team/man photo-3.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Матвеев Юрий</h2>
+                      <h2 class="team__card-name">Николаевич</h2>
+                      <p class="team__card-job">Руководитель, профессор, ДТН</p>
+                    </div>
+<!--
+                  <div class="swiper-slide">
+                    <div class="team__card">
+                      <img src="images/team/man photo-4.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Шалыто Анатолий Абрамович</h2>
+                      <p class="team__card-job">Профессор, ДТН</p>
+                    </div>
+
+                    <div class="team__card">
+                      <img src="images/team/man photo-5.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Колюбин Сергей Алексеевич</h2>
+                      <p class="team__card-job">Начальник, профессор, ДТН</p>
+                    </div>
+
+                    <div class="team__card">
+                      <img src="images/team/man photo-6.png" class="team__card-image" alt="">
+                      <h2 class="team__card-name">Пыркин Антон Александрович</h2>
+                      <p class="team__card-job">Декан, профессор, ДТН</p>
+                    </div>
+                  </div>-->
+
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev swiper-button"></div>
+                  <div class="swiper-button-next swiper-button"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+               </div>
+
+              </div>
+
+            </section>
+
+            <section class="partners">
+              <h2 class="partners__title">С КЕМ МЫ РАБОТАЕМ</h2>
+              <div class="partners__text-container">
+              <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер,
+                способный оперативно решать вопросы по внесению необходимых изменений.</p>
+              <p class="partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+                Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+              </div>
+              <ul class="partners__logo-container">
+                <li class="partners__logo"><img src="./images/logo/a0955cadffc0852e146d74a5264317a2 1 (Traced).svg" alt="Лого Роснефть"></li>
+                <li class="partners__logo"><img src="./images/logo/Gazprom.svg" alt="Лого Газпром"></li>
+                <li class="partners__logo"><img src="./images/logo/Siemens-logo.svg" alt="Лого Сименс"></li>
+                <li class="partners__logo"><img src="./images/logo/MailLogo.svg" alt="Лого МейлГрупп"></li>
+                <li class="partners__logo"><img src="./images/logo/Sberbank_Logo_2020 1.svg" alt="Лого Сбербанк"></li>
+                <li class="partners__logo"><img src="./images/logo/huawei-logo 1.svg" alt="Лого Хуавей"></li>
+              </ul>
+
+            </section>
             <aside class="form"></aside>
         </main>
         <footer class="footer"></footer>
-        <script src="./index.js"></script>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./pages/index.js"></script>
+
     </body>
 </html>

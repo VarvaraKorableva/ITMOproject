@@ -1,0 +1,22 @@
+.team__card-image {
+  width: 215px;
+  height: 286px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .team__card-image {
+    width: 170px;
+    height: 226px;
+    margin-bottom: 12px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .team__card-image {
+    width: 120px;
+    height: 160px;
+    margin: 10px;
+  }
+}

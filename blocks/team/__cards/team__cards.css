@@ -1,0 +1,35 @@
+/*.team__cards{
+  display: flex;
+  border: 2px solid red;
+  justify-content: center;
+  margin: auto;}
+  /*margin-right: 48px;
+  padding-left: 0;
+  /*margin-left: 48px;
+  max-width: 1110px;
+  min-width: 0;
+  display: grid;*/
+  /*grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4,255px);
+
+  gap: 30px;
+  box-sizing: border-box;
+}*/
+/*
+@media screen and (max-width: 1100px) {
+  .team__cards {
+    grid-template-columns: repeat(3,210px);
+    grid-template-rows: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .team__cards {
+    grid-template-columns: repeat(2,140px);
+    gap: 8px;
+  }
+}*/
+
+
+
