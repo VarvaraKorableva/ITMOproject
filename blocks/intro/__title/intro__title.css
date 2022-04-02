@@ -20,6 +20,7 @@
     .intro__title {
         font-size: 32px;
         line-height: 44px;
-        max-width: 256px;
+        max-width: 288px;
+        margin: 0 auto;
     }
 }

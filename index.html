@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./pages/index.css">
     <title></title>
 </head>
@@ -12,15 +13,16 @@
     <header class="header">
         <div class="header__container">
             <button class="header__btn-menu" type="button">
-                <img src="./images/Burger menu.svg" alt="Menu">
+                <img src="./images/header/Burger menu.svg" alt="Menu">
             </button>
-            <img class="logo" src="./images/Logo_AI.svg" alt="Logo AI">
+            <img class="logo" src="./images/header/Logo_AI.svg" alt="Logo AI">
             <button class="header__btn-menu" type="button" style="visibility: hidden">
-                <img src="./images/Burger menu.svg" alt="Menu">
+                <img src="./images/header/Burger menu.svg" alt="Menu">
             </button>
             <nav class="menu menu_type_horizontal-line">
                 <ul class="menu__list">
-                    <li class="menu__list-item menu__list-item_type_horizontal-active"><a class="menu__link" href="#about">О
+                    <li class="menu__list-item menu__list-item_type_horizontal-active"><a class="menu__link"
+                            href="#about">О
                             нас</a></li>
                     <li class="menu__list-item"><a class="menu__link" href="#">Лаборатория</a></li>
                     <li class="menu__list-item"><a class="menu__link" href="#">Проекты</a></li>
@@ -48,10 +50,10 @@
             <p class="about__subtitle">Национальный центр когнитивных разработок – центр национальной технологической
                 инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и
                 когнитивные технологии».</p>
-            <div class="slider">
-                <ul class="about__notes">
-                    <li class="note">
-                        <img class="note__pin" src="./images/Pin.svg" alt="Pin">
+            <div class="about__slider swiper">
+                <ul class="about__notes swiper-wrapper">
+                    <li class="note swiper-slide">
+                        <img class="note__pin" src="./images/about/Pin.svg" alt="Pin">
                         <p class="note__date">Понедельник, 5 июля 2021г</p>
                         <h3 class="note__title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
                         <p class="note__description">Университет ИТМО провел научно-исследовательскую стажировку для
@@ -59,8 +61,8 @@
                             магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие
                             преподаватели в течение десяти дней рассказывали им об основах машинного обучения.</p>
                     </li>
-                    <!-- <li class="note">
-                        <img class="note__pin" src="./images/Pin.svg" alt="Pin">
+                    <li class="note swiper-slide">
+                        <img class="note__pin" src="./images/about/Pin.svg" alt="Pin">
                         <p class="note__date">Понедельник, 5 июля 2021г</p>
                         <h3 class="note__title">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h3>
                         <p class="note__description">Команда ИТМО стала лучшей на международном финале RoboCup-2021.
@@ -69,8 +71,8 @@
                             «Под
                             небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
                     </li>
-                    <li class="note">
-                        <img class="note__pin" src="./images/Pin.svg" alt="Pin">
+                    <li class="note swiper-slide">
+                        <img class="note__pin" src="./images/about/Pin.svg" alt="Pin">
                         <p class="note__date">Суббота, 3 июля 2021г</p>
                         <h3 class="note__title">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021
                         </h3>
@@ -80,13 +82,22 @@
                             сохранилась
                             торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления
                             ректора.</p>
-                    </li> -->
+                    </li>
+                    <li class="note swiper-slide">
+                        <img class="note__pin" src="./images/about/Pin.svg" alt="Pin">
+                        <p class="note__date">Пятница, 2 июля 2021г</p>
+                        <h3 class="note__title">«LEAVING THE DIGITAL» — ИЛИ КАК СОЕДИНИТЬ ЦИФРОВОЕ, ТЕХНОЛОГИЧЕСКОЕ И
+                            БИОЛОГ…
+                        </h3>
+                        <p class="note__description">Преподаватели центра Art & Science Университета ИТМО провели
+                            открытый воркшоп, посвященный созданию произведений, объединяющих в себе биологическую и
+                            синтетическую среды. Серия занятий приурочена к приемной кампании в магистратуру центра.</p>
+                    </li>
                 </ul>
-                <a class="slider__prev"></a>
-                <a class="slider__next"></a>
-                <div class="slider__dots">
-                    <span class="slider__dot-item"></span>
-                    <span class="slider__dot-item"></span>
+                <a class="swiper-button-prev about__btn-prev"></a>
+                <a class="swiper-button-next about__btn-next"></a>
+
+                <div class="slider__dots swiper-pagination">
                     <span class="slider__dot-item"></span>
                 </div>
             </div>
@@ -103,10 +114,10 @@
     </main>
     <footer class="footer"></footer>
 
-    <div class="popup popup_type_menu">
+    <div class="popup popup_type_burger-menu">
         <div class="popup__container">
             <div class="popup__logo-container">
-                <img class="logo" src="./images/Logo_AI.svg" alt="Logo AI">
+                <img class="logo" src="./images/header/Logo_AI.svg" alt="Logo AI">
                 <img class="popup__btn-cross" src="./images/Close-icon.svg" alt="Cross">
             </div>
             <nav class="menu menu_type_burger">
@@ -123,8 +134,8 @@
             </nav>
         </div>
     </div>
-
-    <script src="./index.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./pages/index.js"></script>
 </body>
 
 </html>

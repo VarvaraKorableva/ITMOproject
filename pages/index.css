@@ -27,14 +27,18 @@
 @import url(../blocks/about/__notes/about__notes.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__slider/about__slider.css);
+@import url(../blocks/about/__btn-prev/about__btn-prev.css);
+@import url(../blocks/about/__btn-next/about__btn-next.css);
 @import url(../blocks/note/note.css);
 @import url(../blocks/note/__pin/note__pin.css);
 @import url(../blocks/note/__date/note__date.css);
 @import url(../blocks/note/__title/note__title.css);
 @import url(../blocks/note/__description/note__description.css);
 
-@import url(../blocks/popup/_type/_menu/popup_type_menu.css);
-@import url(../blocks/popup/__menu-list/popup__menu-list.css);
+@import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__logo-container/popup__logo-container.css);
-@import url(../blocks/popup/__menu-item/popup__menu-item.css);
-@import url(../blocks/popup/__menu-link/popup__menu-link.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/_type/_burger-menu/popup_type_burger-menu.css);
+@import url(../blocks/popup/__btn-cross/popup__btn-cross.css);
+

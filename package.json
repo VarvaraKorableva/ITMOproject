@@ -1,0 +1,23 @@
+{
+  "name": "ITMOproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Varvara-from-Moscow/ITMOproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Varvara-from-Moscow/ITMOproject/issues"
+  },
+  "homepage": "https://github.com/Varvara-from-Moscow/ITMOproject#readme",
+  "dependencies": {
+    "swiper": "^8.0.7"
+  }
+}

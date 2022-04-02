@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: -328px;
+    margin-bottom: 200px;
 }
 
 @media screen and (max-width: 768px) {
