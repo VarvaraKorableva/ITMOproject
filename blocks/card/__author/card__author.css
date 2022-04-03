@@ -1,8 +1,12 @@
 .card__author {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   font-style: italic;
   font-size: 14px;
   line-height: 19px;
-  color: #009FAC;
+  color: #009fac;
   margin: 0;
   padding-top: 4px;
 }

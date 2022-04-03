@@ -1,7 +1,13 @@
 .card__text {
+  display: -webkit-box;
   font-size: 14px;
   line-height: 19px;
-  color: #000D26;
+  color: #000d26;
   margin: 0;
   padding-top: 20px;
+  height: 133px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
