@@ -1,5 +1,38 @@
 
 @import url(../vendor/normalize.css);
+@import "../blocks/indastrial/indastrial.css";
+@import "../blocks/indastral/indastral.css";
+@import "../blocks/indastral/__title/indastral__title.css";
+@import "../blocks/block/block.css";
+@import "../blocks/block/__icon/block__icon.css";
+@import "../blocks/block/__subtitle/block__subtitle.css";
+@import "../blocks/block/__text/block__text.css";
+@import "../blocks/cards/cards.css";
+@import "../blocks/card/card.css";
+@import "../blocks/card/__btn/card__btn.css";
+@import "../blocks/card/__icon/card__icon.css";
+@import "../blocks/card/__phon/card__phon.css";
+@import "../blocks/card/__size/card__size.css";
+@import "../blocks/card/__text/card__text.css";
+@import "../blocks/card/__title/card__title.css";
+@import "../blocks/clab/clab.css";
+@import "../blocks/clab/__photo/clab__photo.css";
+@import "../blocks/clab/__photo/_delete/clab__photo_delete.css";
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/__close/popup__close.css";
+@import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__indastrial/popup__indastrial.css";
+@import "../blocks/popup/__list/popup__list.css";
+@import "../blocks/popup/__lists/popup__lists.css";
+@import "../blocks/popup/__photo/popup__photo.css";
+@import "../blocks/popup/__text/popup__text.css";
+@import "../blocks/popup/__text/_delete-one/popup__text_delete-one.css";
+@import "../blocks/popup/__text/_delete-two/popup__text_delete-two.css";
+@import "../blocks/popup/__title/popup__title.css";
+@import "../blocks/popup/_opened/popup_opened.css";
+
+
+
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/education/education.css);
@@ -42,3 +75,4 @@
 @import url(../blocks/projects/card/__logo/card__logo.css);
 @import url(../blocks/projects/card/__text/card__text.css);
 @import url(../blocks/projects/card/__link/card__link.css);
+

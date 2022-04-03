@@ -1,0 +1,11 @@
+.clab {
+  grid-area: clab__photo;
+  max-width: 540px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .clab {
+    width: 288px;
+    height: 180px;
+  }
+}

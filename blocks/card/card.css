@@ -1,0 +1,30 @@
+.card {
+  width: 255px;
+  background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(1, 54, 157, 0.15);
+
+}
+
+.card:hover {
+  background: #009FAC;
+  transform: translateY(-20px);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .card {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card {
+    width: 140px;
+    margin-bottom: 8px;
+  }
+}

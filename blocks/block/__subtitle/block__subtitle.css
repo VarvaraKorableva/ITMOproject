@@ -1,0 +1,31 @@
+.block__subtitle {
+  max-width: 540px;
+  grid-area: subtitle;
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #000D26;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .block__subtitle {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .block__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
