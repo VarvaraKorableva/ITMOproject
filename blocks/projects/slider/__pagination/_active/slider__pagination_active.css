@@ -1,0 +1,4 @@
+.slider__pagination_active {
+  opacity: 1;
+  z-index: 2;
+}

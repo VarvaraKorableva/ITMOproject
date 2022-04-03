@@ -1,0 +1,42 @@
+.projects__tab {
+  width: 25%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 16px;
+  border-bottom: 5px solid transparent;
+  transition: .5s;
+}
+
+.projects__tab:hover {
+  border-bottom: 5px solid rgba(0, 159, 172, 1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .projects__tab {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 12px 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__tab {
+    border-bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 12px 16px;
+  }
+
+  .projects__tab:hover {
+    border-bottom: 0;
+  }
+}

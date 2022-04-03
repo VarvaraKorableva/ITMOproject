@@ -1,0 +1,23 @@
+.slider {
+  padding-top: 60px;  
+  position: relative;
+  height: 370px;
+  width: 1110px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1150px) {
+  .slider {
+    width: 690px;
+    height: 330px;
+    padding-top: 40px; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider {
+    width: 288px;
+    height: 260px;
+    padding-top: 20px;
+  }
+}

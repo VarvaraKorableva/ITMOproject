@@ -1,0 +1,28 @@
+.projects__tabs {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+  .projects__tabs {
+    width: 690px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__tabs {
+    position: absolute;
+    width: 288px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000D26;
+    top: 130px;
+    left: calc(50% - 144px);
+    opacity: 0;
+    z-index: 1;
+    transition: .8s;
+    padding-top: 16px;
+  }
+}

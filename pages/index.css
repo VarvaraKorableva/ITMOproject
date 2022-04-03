@@ -1,4 +1,5 @@
-@import "../vendor/normalize.css";
+
+@import url(../vendor/normalize.css);
 @import "../blocks/indastrial/indastrial.css";
 @import "../blocks/indastral/indastral.css";
 @import "../blocks/indastral/__title/indastral__title.css";
@@ -29,3 +30,49 @@
 @import "../blocks/popup/__text/_delete-two/popup__text_delete-two.css";
 @import "../blocks/popup/__title/popup__title.css";
 @import "../blocks/popup/_opened/popup_opened.css";
+
+
+
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__subtitle/education__subtitle.css);
+@import url(../blocks/education/__container/education__container.css);
+@import url(../blocks/education/__container/_visible/education__container_visible.css);
+@import url(../blocks/education/__group/education__group.css);
+@import url(../blocks/education/__caption/education__caption.css);
+@import url(../blocks/education/__list/education__list.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__img/education__img.css);
+@import url(../blocks/education/__wrapper/education__wrapper.css);
+@import url(../blocks/education/__button-group/education__button-group.css);
+@import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__button/_active/education__button_active.css);
+
+/* Projects by Maksim K. */
+@import url(../blocks/projects/projects/projects.css);
+@import url(../blocks/projects/projects/__title/projects__title.css);
+@import url(../blocks/projects/projects/__select-container/projects__select-container.css);
+@import url(../blocks/projects/projects/__select/projects__select.css);
+@import url(../blocks/projects/projects/__select/_opened/projects__select_opened.css);
+@import url(../blocks/projects/projects/__select-arrow/projects__select-arrow.css);
+@import url(../blocks/projects/projects/__tabs/projects__tabs.css);
+@import url(../blocks/projects/projects/__tabs/_opened/projects__tabs_opened.css);
+@import url(../blocks/projects/projects/__tab/projects__tab.css);
+@import url(../blocks/projects/projects/__tab/_active/projects__tab_active.css);
+@import url(../blocks/projects/swiper/swiper.css);
+@import url(../blocks/projects/swiper/_active/swiper_active.css);
+@import url(../blocks/projects/slider/slider.css);
+@import url(../blocks/projects/slider/__pagination/slider__pagination.css);
+@import url(../blocks/projects/slider/__pagination/_active/slider__pagination_active.css);
+@import url(../blocks/projects/slider/__left-arrow/slider__left-arrow.css);
+@import url(../blocks/projects/slider/__right-arrow/slider__right-arrow.css);
+@import url(../blocks/projects/slider/__pages/slider__pages.css);
+@import url(../blocks/projects/cards/cards.css);
+@import url(../blocks/projects/card/card.css);
+@import url(../blocks/projects/card/__content/card__content.css);
+@import url(../blocks/projects/card/__logo/card__logo.css);
+@import url(../blocks/projects/card/__text/card__text.css);
+@import url(../blocks/projects/card/__link/card__link.css);
+
