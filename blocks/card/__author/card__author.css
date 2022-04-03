@@ -17,3 +17,19 @@
     line-height: 145%;
   }
 }
+
+.swiper {
+  max-width: 1262px;
+  height: 100%;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+}
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+}
