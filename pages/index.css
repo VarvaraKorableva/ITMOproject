@@ -27,3 +27,11 @@
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__share/card__share.css);
+@import url(../blocks/card/__social-items/card__social-items.css);
+@import url(../blocks/card/__social-item/card__social-item.css);
+@import url(../blocks/card/__social-item/_link/card__social-item_link_vk.css);
+@import url(../blocks/card/__social-item/_link/card__social-item_link_fb.css);
+@import url(../blocks/card/__social-item/_link/card__social-item_link_tg.css);
+@import url(../blocks/card/__social-item/_link/card__social-item_link_inst.css);
+@import url(../blocks/card/__social-item/_link/card__social-item_link_youtube.css);
+@import url(../blocks/card/__social-items/_active/card__social-items_active.css);

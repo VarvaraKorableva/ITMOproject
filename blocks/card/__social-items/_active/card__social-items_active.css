@@ -1,0 +1,5 @@
+.card__social-items_active {
+  transition: all 0.3s ease-out;
+  visibility: visible;
+  opacity: 1;
+}
