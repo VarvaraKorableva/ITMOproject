@@ -1,0 +1,20 @@
+.slider__pagination {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 31px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  z-index: 1;
+  transition: .8s;
+}
+
+@media screen and (max-width: 1150px) {
+  .slider__pagination {
+    width: 140px;
+    left: calc(50% - 70px);
+  }
+}

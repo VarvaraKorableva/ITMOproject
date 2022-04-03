@@ -1,0 +1,20 @@
+.slider__left-arrow {
+  background-image: url(../../../../images/project/left-arrow-projects.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.slider__left-arrow:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 1150px) {
+  .slider__left-arrow {
+    width: 25px;
+    height: 19px;
+  }
+}

@@ -1,0 +1,28 @@
+.card__link {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  transition: .8s;
+}
+
+.card:hover .card__link, .card_active .card__link {
+  color: #001337;
+}
+
+@media screen and (max-width: 1150px) {
+  .card__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__link {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
