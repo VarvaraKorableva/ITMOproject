@@ -1,0 +1,24 @@
+.education__subtitle {
+  max-width: 920px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .education__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .education__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 20px;
+  }
+}
