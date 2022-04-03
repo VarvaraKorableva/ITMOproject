@@ -1,11 +1,11 @@
 .card:nth-child(3) .card__logo {
-  background-image: url(../../../../img/Sberbank-white.png);
+  background-image: url(../../../../images/project/Sberbank-white.png);
 }
 
 .card__logo {
   width: 100%;
   height: 48px;
-  background-image: url(../../../../img/Gazprom-white.png);
+  background-image: url(../../../../images/project/Gazprom-white.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -13,7 +13,7 @@
 }
 
 .card:hover .card__logo, .card_active .card__logo{
-  background-image: url(../../../../img/Gazprom-dark-blue.png);
+  background-image: url(../../../../images/project/Gazprom-dark-blue.png);
 }
 
 @media screen and (max-width: 767px) {
