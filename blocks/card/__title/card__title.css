@@ -10,3 +10,11 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+@media (max-width: 490px) {
+  .card__title {
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

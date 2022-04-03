@@ -8,3 +8,11 @@
   color: #001337;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .publications__title {
+    font-size: 24px;
+    line-height: 33px;
+    color: #000d26;
+  }
+}

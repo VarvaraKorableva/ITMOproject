@@ -11,3 +11,17 @@
   -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
 }
+@media (max-width: 768px) {
+  .card__text {
+    padding-top: 12px;
+  }
+}
+
+@media (max-width: 490px) {
+  .card__text {
+    font-size: 12px;
+    line-height: 16px;
+    height: 128px;
+    padding-top: 10px;
+  }
+}

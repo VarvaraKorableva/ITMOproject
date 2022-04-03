@@ -1,7 +1,20 @@
 .publications__cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 33px;
+  gap: 33px;
   padding: 0;
   margin: 30px 0 0;
+}
+
+@media (max-width: 768px) {
+  .publications__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 490px) {
+  .publications__cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }

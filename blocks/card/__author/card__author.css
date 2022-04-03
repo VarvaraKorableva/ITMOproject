@@ -10,3 +10,10 @@
   margin: 0;
   padding-top: 4px;
 }
+
+@media (max-width: 490px) {
+  .card__author {
+    font-size: 12px;
+    line-height: 145%;
+  }
+}

@@ -7,7 +7,7 @@
 .card__link {
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
@@ -15,7 +15,7 @@
 }
 
 .card__link::after {
-  content: url('../../../images/icons/arrow.svg');
+  content: url("../../../images/icons/arrow.svg");
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -27,5 +27,17 @@
 }
 
 .card__link:hover::after {
-  animation: shift .4s forwards;
+  animation: shift 0.4s forwards;
+}
+
+@media (max-width: 630px) {
+  .card__link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 490px) {
+  .card__link {
+    font-size: 14px;
+  }
 }

@@ -8,3 +8,9 @@
   object-position: center;
   box-sizing: border-box;
 }
+
+@media (max-width: 490px) {
+  .card__img {
+    padding: 16px 16px 0;
+  }
+}
