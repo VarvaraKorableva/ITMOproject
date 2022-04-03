@@ -1,0 +1,22 @@
+.card__phon {
+  width: 255px;
+  max-height: 430px;
+  margin: 0 auto;
+  position: absolute;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .card__phon {
+    width: 150px;
+    max-height: 242px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card__phon {
+    width: 140px;
+    max-height: 224px;
+  }
+}

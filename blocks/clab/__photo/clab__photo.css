@@ -1,0 +1,17 @@
+.clab__photo {
+  max-width: 264px;
+  max-height: 276px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .clab__photo {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .clab__photo {
+    min-width: 288px;
+    max-height: 180px;
+  }
+}

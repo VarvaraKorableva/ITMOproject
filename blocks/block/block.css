@@ -1,0 +1,26 @@
+.block {
+  display: grid;
+  grid-template-areas:
+   ". subtitle clab__photo"
+    "container__icon container__text clab__photo";
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .block {
+    grid-template-areas:
+   "subtitle clab__photo"
+    "container__text clab__photo";
+    margin: 0 39px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .block {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 288px;
+    margin: 0 auto;
+  }
+}

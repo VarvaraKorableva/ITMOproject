@@ -1,0 +1,30 @@
+.indastral__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  color: #000D26;
+  margin: 80px auto 60px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .indastral__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    margin: 60px auto 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .indastral__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 40px auto 20px;
+  }
+}

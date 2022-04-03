@@ -1,0 +1,5 @@
+@media screen and (min-width: 320px) and (max-width: 1110px) {
+  .popup__text_delete-one {
+    display: none;
+  }
+}
