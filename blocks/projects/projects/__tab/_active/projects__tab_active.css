@@ -1,0 +1,9 @@
+.projects__tab_active {
+  border-bottom: 5px solid rgba(0, 159, 172, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .projects__tab_active {
+    border-bottom: 0;
+  }
+}

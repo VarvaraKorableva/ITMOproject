@@ -1,0 +1,23 @@
+.swiper {
+  width: 1110px;
+  height: 307px;
+  background-color: transparent;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  transition: .8s;
+}
+
+@media screen and (max-width: 1150px) {
+  .swiper {
+    width: 690px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .swiper {
+    width: 288px;
+    height: 224px;
+  }
+}

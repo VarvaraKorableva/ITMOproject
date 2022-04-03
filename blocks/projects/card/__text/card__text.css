@@ -1,0 +1,30 @@
+.card__text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin: 0;
+  height: 160px;
+  overflow: hidden;
+  transition: .8s;
+}
+
+.card:hover .card__text, .card_active .card__text {
+  color: #001337;
+}
+
+@media screen and (max-width: 1150px) {
+  .card__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__text {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

@@ -1,0 +1,17 @@
+.slider__pages {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 2.1px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1150px) {
+  .slider__pages {
+    font-size: 14px;
+    line-height: 19px;
+    width: 50%;
+  }
+}
