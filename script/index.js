@@ -2,8 +2,8 @@ const btnAspiranture = document.querySelector('.education__button_type_aspirantu
 const btnMagistarture = document.querySelector('.education__button_type_magistrature');
 const containerAspiranture = document.querySelector('.education__container_type_aspiranture');
 const containerMagistrature = document.querySelector('.education__container_type_magistrature');
-const btnShare = document.querySelectorAll('.card__share');
-const fieldShare = document.querySelectorAll('.card__social-items');
+const btnShare = document.querySelectorAll('.publications-card__share');
+const fieldShare = document.querySelectorAll('.publications-card__social-items');
 
 btnAspiranture.addEventListener('click', () => {
   btnAspiranture.classList.add('education__button_active');
@@ -25,11 +25,11 @@ btnShare.forEach((element) => {
 
 function showShare(evt) {
   fieldShare.forEach((element) => {
-    element.classList.toggle('card__social-items_active')
+    element.classList.toggle('publications-card__social-items_active')
   })
 }
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiperPublication', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
