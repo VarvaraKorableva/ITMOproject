@@ -1,4 +1,5 @@
 .swiperPublication {
   max-width: 1262px;
   height: 100%;
+  overflow: hidden;
 }
