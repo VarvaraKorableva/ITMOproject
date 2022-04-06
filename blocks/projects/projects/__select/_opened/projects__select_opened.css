@@ -1,0 +1,7 @@
+.projects__select_opened {
+  opacity: .8;
+}
+
+.projects__select_opened + .projects__select-arrow {
+  transform: rotate(180deg);
+}

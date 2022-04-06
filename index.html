@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <title></title>
@@ -13,9 +14,430 @@
   <header class="header"></header>
   <main>
     <section class="about"></section>
-    <section class="indastrial"></section>
-    <aside class="popup"></aside>
-    <section class="project"></section>
+     <section class="indastrial">
+              <div class="indastral">
+              <h2 class="indastral__title">INDUSTRIAL AI RESEARCH LAB</h2>
+              <div class="block">
+                <p class="block__subtitle">
+                Центр национальной технологической инициативы (НТИ), получивший государственную поддержку
+                по направлению «Технологии машинного обучения
+                и когнитивные технологии».
+              </p>
+                <img class="block__icon" src="images/lab/moleculer.svg" alt="молекула">
+                <p class="block__text">
+                  Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами, новые решения находят, не задумываясь. Работая таким образом
+                  и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.
+                </p>
+               <div class="clab">
+                 <img class="clab__photo" src="images/lab/image%2038.png" alt="человек с ноутбуком">
+                <img class="clab__photo clab__photo_delete" src="images/lab/image%2035.png" alt="люди с ноутбуками">
+               </div>
+              </div>
+              <ul class="cards">
+                <li class="card">
+                  <img class="card__phon" src="images/lab/Project.png" alt="фон первой карточки">
+                  <div class="card__size">
+                  <h2 class="card__title">
+                    Анализ социальных данных
+                  </h2>
+                  <img class="card__icon" src="images/lab/icon1.png" alt="иконка">
+                  <p class="card__text">
+                    Направление включает в себя исследования и разработки технологий МО и КТ
+                  </p>
+                  <button class="card__btn" type="button">подробнее</button>
+                  </div>
+                </li>
+                <li class="card">
+                  <img class="card__phon" src="images/lab/Machine%20learning.png" alt="фон второй карточки">
+                  <div class="card__size">
+                    <h2 class="card__title card_color">
+                      Анализ социальных данных
+                    </h2>
+                    <img class="card__icon" src="images/lab/icon2.png" alt="иконка">
+                    <p class="card__text card_color">
+                      Направление включает в себя исследования и разработки технологий МО и КТ
+                    </p>
+                    <button class="card__btn" type="button">подробнее</button>
+                  </div>
+                </li>
+                <li class="card">
+                  <img class="card__phon" src="images/lab/Data.png" alt="фон третей карточки">
+                  <div class="card__size">
+                    <h2 class="card__title">
+                      Анализ социальных данных
+                    </h2>
+                    <img class="card__icon" src="images/lab/icon3.png" alt="иконка">
+                    <p class="card__text">
+                      Направление включает в себя исследования и разработки технологий МО и КТ
+                    </p>
+                    <button class="card__btn" type="button">подробнее</button>
+                  </div>
+                </li>
+                <li class="card">
+                  <img class="card__phon" src="images/lab/Robot.png" alt="фон четвертой карточки">
+                  <div class="card__size">
+                    <h2 class="card__title">
+                      Анализ социальных данных
+                    </h2>
+                    <img class="card__icon" src="images/lab/icon4.png" alt="иконка">
+                    <p class="card__text">
+                      Направление включает в себя исследования и разработки технологий МО и КТ
+                    </p>
+                    <button class="card__btn" type="button">подробнее</button>
+                  </div>
+                </li>
+              </ul>
+              </div>
+            </section>
+   
+    <section class="projects">
+      <h2 class="projects__title">Наши проекты</h2>
+      <div class="projects__select-container">
+        <div class="projects__select">Все проекты</div>
+        <div class="projects__select-arrow"></div>
+      </div>
+      <div class="projects__tabs">
+        <div class="projects__tab projects__tab_active" data-tab="#all" data-pagination="#all_pages">Все проекты</div>
+        <div class="projects__tab" data-tab="#gov" data-pagination="#gov_pages">Гос. проекты</div>
+        <div class="projects__tab" data-tab="#spec" data-pagination="#spec_pages">Спецпрограммы</div>
+        <div class="projects__tab" data-tab="#dev" data-pagination="#dev_pages">В разработке</div>
+      </div>
+
+
+      <div class="slider">
+        <div class="swiper slider__type_all-projects swiper_active" id="all">
+          <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__pagination slider__pagination_type_all slider__pagination_active" id="all_pages">
+          <div class="slider__left-arrow slider__left-arrow_type_all"></div>
+          <div class="slider__pages slider__pages_type_all"></div>
+          <div class="slider__right-arrow slider__right-arrow_type_all"></div>
+        </div>
+
+        <div class="swiper slider__type_government-projects" id="gov">
+          <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-slide">Slide 3</div> -->
+          </div>
+        </div>
+        <div class="slider__pagination slider__pagination_type_gov" id="gov_pages">
+          <div class="slider__left-arrow slider__left-arrow_type_gov"></div>
+          <div class="slider__pages slider__pages_type_gov"></div>
+          <div class="slider__right-arrow slider__right-arrow_type_gov"></div>
+        </div>
+
+        <div class="swiper slider__type_special-projects" id="spec">
+          <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+        </div>
+        <div class="slider__pagination slider__pagination_type_spec" id="spec_pages">
+          <div class="slider__left-arrow slider__left-arrow_type_spec"></div>
+          <div class="slider__pages slider__pages_type_spec"></div>
+          <div class="slider__right-arrow slider__right-arrow_type_spec"></div>
+        </div>
+
+        <div class="swiper slider__type_dev-projects" id="dev">
+          <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="cards">
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card card_active">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__content">
+                    <div class="card__logo"></div>
+                    <p class="card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</p>
+                    <a href="#" class="card__link">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__pagination slider__pagination_type_dev" id="dev_pages">
+          <div class="slider__left-arrow slider__left-arrow_type_dev"></div>
+          <div class="slider__pages slider__pages_type_dev"></div>
+          <div class="slider__right-arrow slider__right-arrow_type_dev"></div>
+        </div>
+      </div>
+
+    </section>
+
     <section class="education">
       <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
       <p class="education__subtitle">
@@ -387,27 +809,63 @@
               </div>
             </li>
           </ul>
-
-
           <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-
-
-          <!-- If we need scrollbar -->
-
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
     </section>
-    <section class="team"></section>
+     <section class="popup popup_type_about">
+          <div class="popup__indastrial">
+            <div class="popup__container">
+              <h2 class="popup__title">Анализ социальных данных</h2>
+              <button class="popup__close" type="button" aria-label="закрыть"></button>
+              <p class="popup__text popup__text_delete-one">
+                Учебные лаборатории оснащены современным компьютерным оборудованием, техническими средствами защиты информации,
+                программными и программно-аппаратными комплексами средств защиты, разработанными ведущими производителями:
+                Positive Technologies, Infotecs, SearchInform, «Лаборатория ППШ» и других вендоров.
+                Некоторые из лабораторных установок являются уникальными по своим исследовательским задачам.
+              </p>
+              <p class="popup__text popup__text_delete-two">
+                Начиная с первого курса бакалавриата, студенты погружаются в область их будущей профессиональной деятельности,
+                активно развивают навыки программирования, исследования защищенности информации в независимости от формы ее представления,
+                проектирования комплексных интегрированных систем защиты информации, проходят различные виды практик.
+              </p>
+              <p class="popup__text">
+                В состав факультета входит ряд научных лабораторий и центров, в которых проводятся исследования:
+              </p>
+              <ul class="popup__lists">
+                <li class="popup__list">
+                  безопасные киберфизические системы;
+                </li>
+                <li class="popup__list">
+                  разработка средств защиты информации;
+                </li>
+                <li class="popup__list">
+                  функциональная безопасность беспилотных транспортных средств;
+                </li>
+                <li class="popup__list">
+                  теория информации и кодирования;
+                </li>
+                <li class="popup__list">
+                  информационные процессы в Интернет и безопасность виртуального пространства;
+                </li>
+                <li class="popup__list">
+                  интеллектуальные защищенные системы мультиагентного взаимодействия и пр.
+                </li>
+              </ul>
+            </div>
+            <img class="popup__photo" src="images/for%20pop%20up.png" alt="закрыть">
+          </div>
+        </section>
+       <section class="team"></section>
     <section class="partners"></section>
     <aside class="form"></aside>
   </main>
   <footer class="footer"></footer>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="./script/index.js"></script>
+  <script src="./script/projects.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,30 @@
+.popup {
+  border-radius: 10px;
+  width: 1110px;
+  height: 718px;
+  background-color: white;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .popup {
+    font-family: 'Open Sans';
+    width: 690px;
+    height: 454px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .popup {
+    width: 300px;
+    height: 444px;
+  }
+}

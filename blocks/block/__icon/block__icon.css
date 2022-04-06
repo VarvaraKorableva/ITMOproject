@@ -1,0 +1,10 @@
+.block__icon {
+  margin-right: 12px;
+  grid-area: container__icon;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1110px) {
+  .block__icon {
+    display: none;
+  }
+}

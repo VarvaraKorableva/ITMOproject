@@ -1,0 +1,23 @@
+.popup__list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1110px) {
+  .popup__list {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .popup__list {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

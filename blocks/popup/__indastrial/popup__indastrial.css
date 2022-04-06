@@ -1,0 +1,12 @@
+.popup__indastrial {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .popup__indastrial {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}

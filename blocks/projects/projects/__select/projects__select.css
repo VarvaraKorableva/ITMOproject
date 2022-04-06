@@ -1,0 +1,28 @@
+.projects__select {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__select {
+    display: block;
+    width: 288px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 40px 0px 10px;
+    border-bottom: 2px solid #009FAC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .projects__select:hover {
+    opacity: .8;
+  }
+}
