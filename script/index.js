@@ -4,6 +4,7 @@ const containerAspiranture = document.querySelector('.education__container_type_
 const containerMagistrature = document.querySelector('.education__container_type_magistrature');
 const btnShare = document.querySelectorAll('.publications-card__share');
 const fieldShare = document.querySelectorAll('.publications-card__social-items');
+const cardPublication = document.querySelectorAll('.publications__card');
 
 btnAspiranture.addEventListener('click', () => {
   btnAspiranture.classList.add('education__button_active');
@@ -20,14 +21,14 @@ btnMagistarture.addEventListener('click', () => {
 })
 
 btnShare.forEach((element) => {
-  element.addEventListener('click', showShare)
+  element.addEventListener('click', () =>{
+    element.nextElementSibling.classList.toggle('publications-card__social-items_active')  })
 })
 
-function showShare(evt) {
-  fieldShare.forEach((element) => {
-    element.classList.toggle('publications-card__social-items_active')
-  })
-}
+cardPublication.forEach((element) => {
+  element.addEventListener('mouseout', () => {
+    fieldShare.forEach((element) => element.classList.remove('publications-card__social-items_active'))})
+})
 
 const swiper = new Swiper('.swiperPublication', {
   pagination: {
