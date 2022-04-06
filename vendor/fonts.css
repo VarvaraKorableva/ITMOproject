@@ -3,39 +3,39 @@
   font-style:  normal;
   font-weight: 300;
   font-display: swap;
-  src: url("./fonts/OpenSans-Light.woff2") format("woff2"),
-       url("./fonts/OpenSans-Light.woff") format("woff");
+  src: url("./fonts/OpenSansLight.woff2") format("woff2"),
+       url("./fonts/OpenSansLight.woff") format("woff");
 }
 @font-face {
   font-family: 'OpenSans';
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./fonts/OpenSans-Regular.woff2") format("woff2"),
-       url("./fonts/OpenSans-Regular.woff") format("woff");
+  src: url("./fonts/OpenSansRegular.woff2") format("woff2"),
+       url("./fonts/OpenSansRegular.woff") format("woff");
 }
 @font-face {
     font-family: 'OpenSans';
     font-style:  italic;
     font-weight: 400;
     font-display: swap;
-    src: url("./fonts/OpenSans-Italic.woff2") format("woff2"),
-         url("./fonts/OpenSans-Italic.woff") format("woff");}
+    src: url("./fonts/OpenSansItalic.woff2") format("woff2"),
+         url("./fonts/OpenSansItalic.woff") format("woff");}
 @font-face {
   font-family: 'OpenSans';
   font-style:  normal;
   font-weight: 600;
   font-display: swap;
-  src: url("./fonts/OpenSans-SemiBold.woff2") format("woff2"),
-       url("./fonts/OpenSans-SemiBold.woff") format("woff");
+  src: url("./fonts/OpenSansSemiBold.woff2") format("woff2"),
+       url("./fonts/OpenSansSemiBold.woff") format("woff");
 }
 @font-face {
   font-family: 'OpenSans';
   font-style:  normal;
   font-weight: 700;
   font-display: swap;
-  src: url("./fonts/OpenSans-Bold.woff2") format("woff2"),
-       url("./fonts/OpenSans-Bold.woff") format("woff");
+  src: url("./fonts/OpenSansBold.woff2") format("woff2"),
+       url("./fonts/OpenSansBold.woff") format("woff");
 }
   
 
