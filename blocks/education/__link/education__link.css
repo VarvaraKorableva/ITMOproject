@@ -1,4 +1,4 @@
-@keyframes sheen {
+@keyframes shift {
   100% {
     transform: translate(5px, 0px);
   }
@@ -31,7 +31,7 @@
 }
 
 .education__link:hover::after {
-  animation: sheen .4s forwards;
+  animation: shift .4s forwards;
 }
 
 .education__link:hover, .education__link:active {

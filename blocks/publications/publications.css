@@ -1,0 +1,11 @@
+.publications {
+  position: relative;
+  padding: 80px 5%;
+  background: #e0f0ff;
+}
+
+@media (max-width: 768px) {
+  .publications {
+    padding: 60px 5%;
+  }
+}

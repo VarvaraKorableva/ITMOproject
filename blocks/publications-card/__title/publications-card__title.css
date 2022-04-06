@@ -1,0 +1,20 @@
+.publications-card__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000d26;
+  margin: 0;
+  padding-top: 20px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 490px) {
+  .publications-card__title {
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

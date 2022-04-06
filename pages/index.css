@@ -47,6 +47,28 @@
 @import url(../blocks/education/__button/education__button.css);
 @import url(../blocks/education/__button/_active/education__button_active.css);
 
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications/__cards/publications__cards.css);
+@import url(../blocks/publications-card/publications-card.css);
+@import url(../blocks/publications-card/__img/publications-card__img.css);
+@import url(../blocks/publications-card/__title/publications-card__title.css);
+@import url(../blocks/publications-card/__author/publications-card__author.css);
+@import url(../blocks/publications-card/__text/publications-card__text.css);
+@import url(../blocks/publications-card/__footer/publications-card__footer.css);
+@import url(../blocks/publications-card/__header/publications-card__header.css);
+@import url(../blocks/publications-card/__link/publications-card__link.css);
+@import url(../blocks/publications-card/__share/publications-card__share.css);
+@import url(../blocks/publications-card/__social-items/publications-card__social-items.css);
+@import url(../blocks/publications-card/__social-item/publications-card__social-item.css);
+@import url(../blocks/publications-card/__social-item/_link/publications-card__social-item_link_vk.css);
+@import url(../blocks/publications-card/__social-item/_link/publications-card__social-item_link_fb.css);
+@import url(../blocks/publications-card/__social-item/_link/publications-card__social-item_link_tg.css);
+@import url(../blocks/publications-card/__social-item/_link/publications-card__social-item_link_inst.css);
+@import url(../blocks/publications-card/__social-item/_link/publications-card__social-item_link_youtube.css);
+@import url(../blocks/publications-card/__social-items/_active/publications-card__social-items_active.css);
+@import url(../blocks/swiperPublication/swiperPublication.css);
+
 /* Projects by Maksim K. */
 @import url(../blocks/projects/projects/projects.css);
 @import url(../blocks/projects/projects/__title/projects__title.css);
@@ -72,4 +94,3 @@
 @import url(../blocks/projects/card/__logo/card__logo.css);
 @import url(../blocks/projects/card/__text/card__text.css);
 @import url(../blocks/projects/card/__link/card__link.css);
-

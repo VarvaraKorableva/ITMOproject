@@ -1,0 +1,43 @@
+@keyframes shift {
+  100% {
+    transform: translate(5px, 0px);
+  }
+}
+
+.publications-card__link {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.publications-card__link::after {
+  content: url("../../../images/icons/arrow.svg");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  padding-left: 3px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.publications-card__link:hover::after {
+  animation: shift 0.4s forwards;
+}
+
+@media (max-width: 630px) {
+  .publications-card__link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 490px) {
+  .publications-card__link {
+    font-size: 14px;
+  }
+}
