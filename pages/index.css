@@ -1,5 +1,6 @@
-
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
 @import "../blocks/indastrial/indastrial.css";
 @import "../blocks/indastral/indastral.css";
 @import "../blocks/indastral/__title/indastral__title.css";
@@ -31,10 +32,6 @@
 @import "../blocks/popup/__title/popup__title.css";
 @import "../blocks/popup/_opened/popup_opened.css";
 
-
-
-@import url(../vendor/fonts.css);
-@import url(../blocks/page/page.css);
 @import url(../blocks/education/education.css);
 @import url(../blocks/education/__title/education__title.css);
 @import url(../blocks/education/__subtitle/education__subtitle.css);
