@@ -1,0 +1,44 @@
+.feedback__form-container {
+  max-width: 1113px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "name surname text"
+    "telephone email text"
+    " . submit . ";
+  gap: 29px 20px;
+}
+.feedback__field_with_name {
+  grid-area: name;
+}
+.feedback__field_with_surname {
+  grid-area: surname;
+}
+.feedback__field_with_text {
+  grid-area: text;
+}
+.feedback__field_with_telephone {
+  grid-area: telephone;
+}
+.feedback__field_with_email {
+  grid-area: email;
+}
+.feedback__field_with_submit {
+  grid-area: submit;
+}
+
+@media screen and (max-width: 720px) {
+  .feedback__form-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr) 3fr 0fr 1fr;
+    grid-template-areas:
+      "name"
+      "surname"
+      "telephone"
+      "email"
+      "text"
+      "."
+      "submit";
+    row-gap: 12px;
+  }
+}
