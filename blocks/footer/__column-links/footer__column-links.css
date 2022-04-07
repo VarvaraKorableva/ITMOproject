@@ -1,0 +1,19 @@
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__column-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__column-social {
+    display: flex;
+    flex-direction: row;
+}
