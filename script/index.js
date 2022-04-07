@@ -26,7 +26,7 @@ btnShare.forEach((element) => {
 })
 
 cardPublication.forEach((element) => {
-  element.addEventListener('mouseout', () => {
+  element.addEventListener('mouseleave', () => {
     fieldShare.forEach((element) => element.classList.remove('publications-card__social-items_active'))})
 })
 
