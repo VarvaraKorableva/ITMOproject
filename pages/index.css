@@ -110,4 +110,6 @@
 @import url(../blocks/footer/__column_content/footer__column_content_info.css);
 @import url(../blocks/footer/__column_content/footer__column_content_address-info.css);
 @import url(../blocks/footer/__info-title/footer__info-title.css);
+@import url(../blocks/footer/__info-subtitle/footer__info-subtitle.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
 

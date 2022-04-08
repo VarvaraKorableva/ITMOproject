@@ -1,18 +1,20 @@
-.footer__info-title {
+.footer__info-subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
 }
 
 @media screen and (max-width: 960px) {
-  .footer__info-title {
+  .footer__info-subtitle {
+      min-width: 241px;
     font-size: 12px;
     line-height: 20px;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .footer__info-title {
+  .footer__info-subtitle {
+    display: none;
     font-size: 12px;
     line-height: 16px;
   }
