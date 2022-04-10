@@ -1,0 +1,5 @@
+.swiper-button-prev::after {
+  color: #E0F0FF;
+  box-shadow: 0 0 50px #E0F0FF;
+  border-radius: 50px;
+}

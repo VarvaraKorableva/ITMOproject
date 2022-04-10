@@ -1,9 +1,7 @@
-.swiper-button {
-
+.team__swiper-button {
 
 }
-
-.swiper-button::after {
+.team__swiper-button::after {
   /*color: #E0F0FF;*/
   font-size: 10px;
   box-shadow: 0 0 50px #E0F0FF;
