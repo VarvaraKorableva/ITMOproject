@@ -1,0 +1,18 @@
+.about__btn-next {
+    background-image: url(../../../images/about/About_arrow_right_darkblue.svg);
+    background-size: cover;
+    width: 100px;
+    height: 100px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .about__btn-next {
+        display: none;
+    }
+}

@@ -27,3 +27,4 @@ openPopup(newAbout))
 closePopupModal.addEventListener("click",()=>{
   closePopup(newAbout)
 })
+

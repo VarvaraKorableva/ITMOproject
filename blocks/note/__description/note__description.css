@@ -1,0 +1,26 @@
+.note__description {
+    max-width: 308px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000D26;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #009FAC;
+}
+
+@media screen and (max-width: 768px) {
+    .note__description {
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .note__description {
+        max-width: 256px;
+    }
+}

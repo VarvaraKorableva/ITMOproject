@@ -1,0 +1,16 @@
+.intro__container {
+    max-width: 1122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding: 92px 39px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .intro__container {
+        padding: 30px 16px 0;
+    }
+}

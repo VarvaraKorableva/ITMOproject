@@ -1,0 +1,23 @@
+.note {
+    position: relative;
+    max-width: 348px;
+    background-color: #E0F0FF;
+    border-radius: 10px;
+    padding: 20px 20px 30px 20px;
+    box-sizing: border-box;
+    margin: 14px 16px 40px 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    .note {
+        max-width: 330px;
+        margin: 14px 15px 40px 15px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .note {
+        max-width: 298px;
+        margin: 14px 2.5px 20px 2.5px;
+    }
+}

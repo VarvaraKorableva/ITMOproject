@@ -1,0 +1,20 @@
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+    .menu__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 16px 0 20px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,24 @@
+.note__date {
+    max-width: 308px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #009FAC;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .note__date {
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .note__date {
+        max-width: 248px;
+    }
+}
