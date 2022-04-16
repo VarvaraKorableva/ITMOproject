@@ -1,0 +1,23 @@
+.popup_type_burger-menu {
+    width: 330px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000D26;
+    justify-content: flex-start;
+    align-items: center;
+    display: none;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .popup_type_burger-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .popup_type_burger-menu {
+        width: 320px;
+    }
+}

@@ -60,3 +60,21 @@ const swiper = new Swiper('.swiperPublication', {
   slidesPerGroup: 3,
   // And if we need scrollbar
 });
+
+
+
+
+
+const buttonBurgerMenu = document.querySelector(".header__btn-menu");
+const popupBurger = document.querySelector(".popup_type_burger-menu");
+const buttonClosePopup = document.querySelector(".popup__btn-cross");
+
+buttonBurgerMenu.addEventListener("click", () => {
+  popupBurger.classList.add("popup_opened");
+});
+
+buttonClosePopup.addEventListener("click", () => {
+  popupBurger.classList.remove("popup_opened");
+});
+
+console.log(123);

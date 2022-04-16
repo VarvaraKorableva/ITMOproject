@@ -1,0 +1,10 @@
+.intro__bold-text {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+    .intro__bold-text {
+        font-size: 32px;
+        line-height: 44px;
+    }
+}

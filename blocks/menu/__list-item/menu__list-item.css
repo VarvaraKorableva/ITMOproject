@@ -1,0 +1,31 @@
+.menu__list-item {
+    height: 44px;
+    width: 12.12%;
+    min-width: fit-content;
+}
+
+.menu__list-item:hover {
+    border-bottom: 2px #009FAC solid;
+}
+
+@media screen and (max-width: 767px) {
+    .menu__list-item {
+        width: 330px;
+        height: 44px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+
+    .menu__list-item:hover {
+        background-color: #001337;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu__list-item {
+        width: 320px;
+        min-height: 44px;
+        padding-left: 16px;
+    }
+}
