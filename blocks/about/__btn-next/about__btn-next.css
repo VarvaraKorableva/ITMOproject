@@ -1,10 +1,17 @@
 .about__btn-next {
-    background-image: url(../../../images/about/About_arrow_right_darkblue.svg);
-    background-size: cover;
-    width: 100px;
-    height: 100px; 
-    background-repeat: no-repeat;
-    background-position: center;
+  width: 60px;
+  height: 60px;
+  background-image: url("../../../images/icons/strelka-white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+  border-radius: 50px;
+  background-color: #001337;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  z-index: 20;
+  right: 80px
 }
 
 .swiper-button-next::after {

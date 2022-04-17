@@ -1,5 +1,6 @@
 .header__container {
     max-width: 1110px;
+    margin: 0 auto;
     min-height: 80px;
     display: flex;
     flex-direction: row;

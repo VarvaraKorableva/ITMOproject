@@ -21,13 +21,15 @@ btnMagistarture.addEventListener('click', () => {
 })
 
 btnShare.forEach((element) => {
-  element.addEventListener('click', () =>{
-    element.nextElementSibling.classList.toggle('publications-card__social-items_active')  })
+  element.addEventListener('click', () => {
+    element.nextElementSibling.classList.toggle('publications-card__social-items_active')
+  })
 })
 
 cardPublication.forEach((element) => {
   element.addEventListener('mouseleave', () => {
-    fieldShare.forEach((element) => element.classList.remove('publications-card__social-items_active'))})
+    fieldShare.forEach((element) => element.classList.remove('publications-card__social-items_active'))
+  })
 })
 
 const swiper = new Swiper('.swiperPublication', {
@@ -37,8 +39,8 @@ const swiper = new Swiper('.swiperPublication', {
   },
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiperPublication__button-next',
+    prevEl: '.swiperPublication__button-prev',
   },
   breakpoints: {
     // when window width is <= 320px
@@ -61,6 +63,44 @@ const swiper = new Swiper('.swiperPublication', {
   // And if we need scrollbar
 });
 
+const swiperAbout = new Swiper('.about__swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  speed: 400,
+  // spaceBetween: 32,
+  // initialSlide: 1,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.about__btn-next',
+    prevEl: '.about__btn-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 480px
+    720: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 640px
+    1200: {
+      slidesPerView: 3,
+    }
+  }
+});
 
 
 

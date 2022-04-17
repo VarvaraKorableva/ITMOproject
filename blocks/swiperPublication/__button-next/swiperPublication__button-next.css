@@ -1,0 +1,15 @@
+.swiperPublication__button-next {
+  width: 60px;
+  height: 60px;
+  background-image: url("../../../images/icons/strelka.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+  border-radius: 50px;
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  right: 15px
+}
